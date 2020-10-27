@@ -24,4 +24,18 @@ This repository exists all the log and data we used and generated.
 
 ### Experiment2
 
+**all_funcs_need.json** : original data. 66528 functions and their inputs.
+
+**sample.json** : The result after preprocessing the original data, sample functions.
+
+**abis** : target smart contracts' abis.
+
+**top1, top5, top10** : the recommended seeds for each smart contracts.
+
+**Result_FD_R1.txt, Result_FD_R51.txt, Result_FD_R101.txt** : the result ExecuWatch get.
+
+**Result_FD_fuzz_1** : the result of transactions' execution using the seeds generated randomly.
+
+**result.xslx** : The statistical data about successful count and successful rate.
+
 ### Experiment3
