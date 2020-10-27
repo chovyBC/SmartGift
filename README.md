@@ -43,3 +43,13 @@ This repository exists all the log and data we used and generated.
 **expCode** : The prototype to generate the seeds for contracts.
 
 ### Experiment3
+
+**abis** : target smart contracts' abis.
+
+**sourceCode** : target smart contracts' source code.
+
+**originalApproach** : vulnerability detection result using random generation
+
+**newApproach** : vulnerability detection result using approach mentioned in the paper.
+
+**expCode** : The exp code about testing.
