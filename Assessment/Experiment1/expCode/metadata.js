@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const InputDataDecoder = require('ethereum-input-data-decoder');
 
-let dir_path = "../data/trcode_with_input/"
+let dir_path = "../data/trcode_with_input/" // metadata crawled from internet
 let output_dir = "../data/exp1/"
 let files = fs.readdirSync(dir_path)
 let fail_cnt = 0
